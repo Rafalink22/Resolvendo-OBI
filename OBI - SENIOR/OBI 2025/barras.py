@@ -1,5 +1,5 @@
 N = int(input())  #Número de colunas
-lista_pop = []  # Lista com os valores da popularidade
+lista_pop = []  #Lista com os valores da popularidade
 
 for _ in range(N):
     lista_pop.append(int(input()))
@@ -17,6 +17,6 @@ for i in range(H):  #Linha
             linha.append(0)
     matriz.append(linha)
 
-# Imprimir o gráfico
+#Imprimir o gráfico
 for linha in matriz:
     print(" ".join(map(str, linha)))
