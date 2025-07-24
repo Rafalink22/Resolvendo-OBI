@@ -1,10 +1,10 @@
-N = int(input())  # Número de alunos
-alturas = []
+N = int(input())  #Número de alunos
+alturas = [] #Lista de altura dos alunos
 
 for _ in range(N):
     alturas.append(int(input()))  #Lê as alturas
 
-alunos_nao_vistos = 0
+alunos_nao_vistos = 0 #Contador de alunos não vistos
 maior_altura = 0  #Começa do menor possível
 
 #Percorrer de trás pra frente
